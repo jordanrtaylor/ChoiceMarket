@@ -39,5 +39,22 @@
 
 .logo {
   padding: unset !important;
-  
+}
+
+.header{
+  text-align: left;
+}
+
+.SandwichContainer{
+  display:flex;
+  align-items:space-between;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  background:rgb(199, 199, 199);
+}
+
+.sandwichItem{
+  width:22.5%; 
+  padding:20px;
+  margin-bottom:0px;
 }
